@@ -1,0 +1,109 @@
+/* Estilos del body */
+body {
+    background-color: #f0f8ff; /* Color de fondo de la página */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    margin: 0; /* Eliminar el margen por defecto del navegador */
+    padding: 0; /* Eliminar el padding por defecto del navegador */
+}
+
+/* Estilos del header */
+header {
+    text-align: center; /* Centrar el contenido del encabezado */
+    padding: 20px; /* Espacio interno de 20px en todas las direcciones */
+    background-color: #4b0082; /* Color de fondo púrpura */
+    color: white; /* Color del texto en blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
+
+/* Estilos de encabezados h1 y h2 */
+h1, h2 {
+    margin: 10px 0; /* Márgenes verticales de 10px */
+}
+
+/* Estilos del menú de navegación */
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
+}
+nav li {
+    display: inline; /* Mostrar los elementos de la lista en línea */
+    margin: 0 15px; /* Espaciado horizontal entre los elementos */
+}
+nav a {
+    color: white; /* Color del texto en blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold; /* Establece el texto en negrita */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+nav a:hover {
+    color: #ffeb3b; /* Color amarillo al pasar el mouse */
+}
+
+/* Estilos de las secciones */
+section {
+    margin: 20px auto; /* Espacio alrededor de la sección, centrada */
+    padding: 20px; /* Espacio interno de 20px */
+    background-color: #ffffff; /* Color de fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    width: 80%; /* Ancho de la sección del 80% */
+    max-width: 800px; /* Ancho máximo de 800px */
+}
+
+/* Estilos del footer */
+footer {
+    text-align: center; /* Centrar el texto en el pie de página */
+    padding: 15px; /* Espacio interno de 15px */
+    background-color: #4b0082; /* Color de fondo púrpura */
+    color: white; /* Color del texto en blanco */
+    position: relative; /* Posicionamiento relativo */
+    bottom: 0; /* Posición en la parte inferior */
+    width: 100%; /* Ancho completo */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilos del formulario */
+form {
+    display: flex; /* Utiliza Flexbox para el diseño */
+    flex-direction: column; /* Coloca los elementos en columna */
+    gap: 10px; /* Espaciado entre elementos del formulario */
+}
+
+/* Estilos de los campos de entrada y selectores */
+input[type="text"],
+input[type="email"],
+select {
+    padding: 10px; /* Espacio interno de 10px */
+    border-radius: 4px; /* Bordes redondeados */
+    border: 1px solid #ddd; /* Borde gris claro */
+    transition: border 0.3s; /* Transición suave para el borde */
+}
+
+/* Estilos en estado de enfoque */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: #4b0082; /* Cambia el color del borde a púrpura al enfocar */
+    outline: none; /* Elimina el borde azul por defecto */
+}
+
+/* Estilos del botón */
+button {
+    background-color: #4b0082; /* Color de fondo púrpura */
+    color: white; /* Color del texto en blanco */
+    padding: 10px; /* Espacio interno de 10px */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+button:hover {
+    background-color: #6a0dad; /* Color al pasar el mouse */
+}
+
+/* Estilos de texto destacado */
+.destacado {
+    font-weight: bold; /* Texto en negrita */
+    color: #6a0dad; /* Color para el texto destacado */
+}
